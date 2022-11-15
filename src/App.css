@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #11133a;
+  height: 100vh;
+}
+
+.home,
+.coin__container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.home h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+table {
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  border-collapse: collapse;
+  margin-top: 30px;
+  box-shadow: 0px 0 10px rgb(46, 83, 164);
+}
+
+thead {
+  border-bottom: 1px solid rgba(201, 202, 208, 0.175);
+}
+
+tr,
+thead {
+  text-align: left;
+}
+
+tr td,
+thead th {
+  padding: 20px;
+  margin: 0;
+  border-spacing: 0;
+  border-collapse: inherit;
+  justify-content: left;
+}
+
+tr:hover {
+  background: rgba(201, 202, 208, 0.175);
+}
+.coin__name {
+  display: flex;
+}
+.coin__name a {
+  color: rgb(17, 19, 58);
+  text-decoration: none;
+}
+
+tr td img {
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.coin__details,
+.cards {
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  display: flex;
+  box-shadow: 0px 0 10px rgb(46, 83, 164);
+}
+
+.cards {
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+
+.coin__details img {
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.coin__content {
+  padding-left: 10px;
+  padding-right: 10em;
+}
+
+.card {
+  height: 100%;
+}
+
+.coin__graph {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 0 10px rgb(46, 83, 164);
+
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.coin__container a {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: green;
+}
+p.negative {
+  color: red;
+  font-weight: bold;
+}
+p.positive {
+  color: green;
+  font-weight: bold;
+}
+.negative {
+  color: red;
+  font-weight: bold;
+}
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.rank {
+  background: #11133a;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+}
